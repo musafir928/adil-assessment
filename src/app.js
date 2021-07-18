@@ -52,7 +52,7 @@ export const login = async (req, res) => {
     }
 }
 
-export const login = async (req, res) => {
+export const submitInvitation = async (req, res) => {
     try {
         let existingUsers = await getUsers()
         if (!existingUsers.length) {
